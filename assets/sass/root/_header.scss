@@ -1,0 +1,24 @@
+#header{
+  #header-top{
+      background-color:#e0e0e0;
+      color:#545454;
+      text-align:right;
+      .fab{
+          font-size:1.125rem;
+          vertical-align: text-bottom;
+      }
+  }
+  #header-main{
+    nav{
+      text-align:right;
+      .nav-item{
+        display:inline-block;
+        font-size:1.125rem;
+        a{
+            display: block;
+            padding:.5rem;
+        }
+      }
+    }
+  }
+}

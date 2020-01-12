@@ -1,0 +1,106 @@
+#header-search{
+    background-color:#ca1033;
+    padding:2rem 0;
+    h2{
+        color:#FFF;
+        font-size:1rem;
+        margin-bottom:1rem;
+    }
+
+    select{
+        border-radius:0;
+        height: calc(3rem + 2px);
+    }
+
+    input[type="submit"]{
+        background-color:#ffde00;
+        color:#ca1033;
+        border:1px solid #ffde00;
+        padding:.865rem;
+        display:block;
+        width: 100%;
+        &:hover{
+            background-color:#ca1033;
+            color:#ffde00;
+            cursor:pointer;
+        }
+    }
+}
+#page{
+    h2{
+        color:#005b9e;
+        font-size:1.5rem;
+    }
+    .newsletter{
+        background-color:#ca1033;
+        padding:2rem 0;
+        .btn-enviar{
+            background-color:#ffde00;
+            color:#ca1033;
+            border:1px solid #ffde00;
+            display:block;
+            width: 100%;
+            padding:1.1rem;
+            &:hover{
+                background-color:#ca1033;
+                color:#ffde00;
+                cursor:pointer;
+            }
+        }
+        input[type="text"]{
+            border-radius:0;
+            padding:1rem;
+        }
+        .news-receba{
+            span{
+                color:#FFF;
+                font-size:1.125rem;
+            }
+        }
+    }
+    .loop-content{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        .epl-listing-post{
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+            flex: 0 0 25%;
+            max-width: 33.33333%;
+            .epl-stickers-wrapper{
+                .status-sticker{
+                    background-color:#ca1033;
+                }
+            }
+            .property-box{
+                float:none;
+                width:100%;
+                .entry-title{
+                    text-align:center;
+                    margin-bottom:.5rem;
+                    margin-top:1rem;
+                    a{
+                        color:#ca1033;
+                    }
+                }
+                .property-feature-icons{
+                    text-align:center;
+                }
+                .property-address{}
+                .price{      
+                    text-align:center;
+                    margin-bottom:1rem;
+                    margin-top:.5rem;
+                    .page-price{
+                        font-size:1.25rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

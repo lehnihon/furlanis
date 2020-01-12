@@ -1,0 +1,25 @@
+body{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color:#545454;
+  font-size:14px;
+}
+
+a{
+  color:#545454;
+  &:hover{
+    text-decoration: none;
+    color:#ca1033;
+  }
+}
+
+h1,h2,h3,h4,h5{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 600;
+  color:#545454;
+}
+
+h1, h2{
+  font-size:2rem;
+}
+
+

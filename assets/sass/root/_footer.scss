@@ -1,0 +1,35 @@
+#footer{
+  h4{
+    font-size:1.125rem;
+    margin-bottom:.75rem;
+  }
+  #footer-top{
+    background-color:#f6f6f6;
+    padding:3rem 0;
+    .redes{
+        padding:0;
+        margin:0;
+        list-style-type: none;
+        li{
+            display:inline-block;
+            margin-right:.75rem;
+            i{
+                font-size:2.5rem;
+            }
+        }
+    }
+    a{
+        display:block;
+        margin-bottom:.5rem;
+    }
+  }
+  #footer-data{
+    background-color:#e0e0e0;
+    padding:3rem 0;
+  }
+  #footer-bot{
+    background-color:#ca1033;
+    color:#FFF;
+    padding:1rem 0;
+  }
+}
